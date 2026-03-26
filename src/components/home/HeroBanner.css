@@ -1,0 +1,134 @@
+   .hero-banner {
+  width: 100%;
+  margin: 20px 0 30px;
+}
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 6; /* sab banners same proportion me */
+  max-height: 500px;
+  min-height: 280px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #f8f5e9; /* neutral banner background */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  pointer-events: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* image cut nahi hogi */
+  object-position: center;
+  display: block;
+  background: #f8f5e9;
+}
+
+/* Arrows */
+.hero-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(17, 24, 39, 0.45);
+  color: white;
+  border: none;
+  font-size: 28px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  transition: 0.25s ease;
+}
+
+.hero-btn:hover {
+  background: rgba(17, 24, 39, 0.85);
+}
+
+.hero-btn.prev {
+  left: 18px;
+}
+
+.hero-btn.next {
+  right: 18px;
+}
+
+/* Dots */
+.hero-dots {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.dot:hover {
+  transform: scale(1.15);
+}
+
+.active-dot {
+  background: #111827;
+  transform: scale(1.2);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .hero-slider {
+    aspect-ratio: 16 / 7;
+    min-height: 240px;
+  }
+
+  .hero-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-slider {
+    aspect-ratio: 16 / 8;
+    min-height: 180px;
+    border-radius: 14px;
+  }
+
+  .hero-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}

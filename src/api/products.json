@@ -1,0 +1,182 @@
+    [
+  {
+    "id": 1,
+    "name": "Nike Air Max Sneakers",
+    "price": 4999,
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "rating": 4.5,
+    "description": "Comfortable and stylish running sneakers for daily wear."
+  },
+  {
+    "id": 2,
+    "name": "Adidas Sports Shoes",
+    "price": 4599,
+    "category": "Footwear",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0__iqTIa-GOG0PEeI24kO2Neq4bd5HMJ9w&s",
+    "rating": 4.3,
+    "description": "Lightweight sports shoes designed for performance and comfort."
+  },
+  {
+    "id": 3,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "rating": 4.4,
+    "description": "Noise-isolating wireless headphones with deep bass."
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch Pro",
+    "price": 5499,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+    "rating": 4.2,
+    "description": "Track fitness, heart rate, and notifications with ease."
+  },
+  {
+    "id": 5,
+    "name": "Men's Casual T-Shirt",
+    "price": 799,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+    "rating": 4.1,
+    "description": "Soft cotton t-shirt perfect for everyday casual wear."
+  },
+  {
+    "id": 6,
+    "name": "Women's Summer Dress",
+    "price": 1499,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500",
+    "rating": 4.6,
+    "description": "Elegant floral dress for casual outings and parties."
+  },
+  {
+    "id": 7,
+    "name": "Leather Handbag",
+    "price": 2599,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+    "rating": 4.4,
+    "description": "Premium leather handbag with spacious compartments."
+  },
+  {
+    "id": 8,
+    "name": "Classic Analog Watch",
+    "price": 1999,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500",
+    "rating": 4.0,
+    "description": "Minimal and elegant analog watch for all occasions."
+  },
+  {
+    "id": 9,
+    "name": "Gaming Mouse RGB",
+    "price": 1299,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500",
+    "rating": 4.5,
+    "description": "High-precision gaming mouse with customizable RGB lights."
+  },
+  {
+    "id": 10,
+    "name": "Laptop Backpack",
+    "price": 1799,
+    "category": "Accessories",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJGmlRRWLAku2un85SpHCeLnlSaxFQ_vFvQ&s",
+    "rating": 4.3,
+    "description": "Durable backpack with laptop compartment and extra storage."
+  },
+  {
+    "id": 11,
+    "name": "Women's Running Shoes",
+    "price": 3899,
+    "category": "Footwear",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4sZBTuNE4tAl7NpzutO5-Ak62sefiJZlNjg&s",
+    "rating": 4.4,
+    "description": "Flexible and breathable running shoes for active lifestyle."
+  },
+  {
+    "id": 12,
+    "name": "Men's Denim Jacket",
+    "price": 2199,
+    "category": "Clothing",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgFLf5vE1ibYWObTBm739eboDHnrAUKLlUNQ&s",
+    "rating": 4.2,
+    "description": "Trendy denim jacket with a modern slim fit look."
+  },
+  {
+    "id": 13,
+    "name": "Bluetooth Speaker",
+    "price": 2499,
+    "category": "Electronics",
+    "image": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzm330_QXVLpQJnT6jKW3ixSYYI9Vka9t6Q&s",
+    "rating": 4.5,
+    "description": "Portable Bluetooth speaker with rich sound and strong bass."
+  },
+  {
+    "id": 14,
+    "name": "Women's Sling Bag",
+    "price": 1399,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+    "rating": 4.3,
+    "description": "Compact and stylish sling bag for daily use."
+  },
+  {
+    "id": 15,
+    "name": "Men's Formal Shirt",
+    "price": 1199,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500",
+    "rating": 4.1,
+    "description": "Comfortable and classy formal shirt for office and meetings."
+  },
+  {
+    "id": 16,
+    "name": "Sports Water Bottle",
+    "price": 499,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+    "rating": 4.0,
+    "description": "Leak-proof sports bottle suitable for gym and travel."
+  },
+  {
+    "id": 17,
+    "name": "Wireless Keyboard",
+    "price": 1899,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=500",
+    "rating": 4.2,
+    "description": "Compact wireless keyboard with smooth and silent typing."
+  },
+  {
+    "id": 18,
+    "name": "Women's Heels",
+    "price": 2799,
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+    "rating": 4.3,
+    "description": "Elegant heels perfect for parties and formal events."
+  },
+  {
+    "id": 19,
+    "name": "Men's Hoodie",
+    "price": 1599,
+    "category": "Clothing",
+    "image": "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_MnqviW7fxuifE0sIvSeau4vzujSAs5_OQ&s",
+    "rating": 4.4,
+    "description": "Warm and stylish hoodie for winter and casual wear."
+  },
+  {
+    "id": 20,
+    "name": "USB-C Fast Charger",
+    "price": 999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=500",
+    "rating": 4.5,
+    "description": "Fast charging adapter compatible with modern smartphones."
+  }
+]
