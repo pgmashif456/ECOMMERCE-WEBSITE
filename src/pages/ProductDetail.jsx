@@ -4,8 +4,7 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
 import { addToWishlist } from "../features/wishlist/wishlistSlice";
 import products from "../api/products.json";
-import MainLayout from "../components/layout/MainLayout";
-
+ 
 function ProductDetail() {
   const { id } = useParams();
   const dispatch = useDispatch();
@@ -14,9 +13,9 @@ function ProductDetail() {
 
   if (!product) {
     return (
-      <MainLayout>
+      
         <h2>Product not found</h2>
-      </MainLayout>
+      
     );
   }
 
@@ -31,7 +30,7 @@ function ProductDetail() {
   };
 
   return (
-    <MainLayout>
+    
       <div style={styles.container}>
         <div style={styles.left}>
           <img src={product.image} alt={product.name} style={styles.image} />
@@ -58,7 +57,7 @@ function ProductDetail() {
           </div>
         </div>
       </div>
-    </MainLayout>
+    
   );
 }
 
