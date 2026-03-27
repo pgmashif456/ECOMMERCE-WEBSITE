@@ -5,8 +5,7 @@ import { removeFromWishlist } from "../features/wishlist/wishlistSlice";
 import { addToCart } from "../features/cart/cartSlice";
 import { Link } from "react-router-dom";
 import { X } from "lucide-react";
-import MainLayout from "../components/layout/MainLayout";
-
+ 
 function Wishlist() {
   const wishlistItems = useSelector((state) => state.wishlist.items);
   const dispatch = useDispatch();
@@ -17,7 +16,7 @@ function Wishlist() {
   };
 
   return (
-    <MainLayout>
+    
       <div className="wishlist-container">
         <h1 className="wishlist-heading">
           My Wishlist <span>{wishlistItems.length} items</span>
@@ -67,7 +66,7 @@ function Wishlist() {
           </div>
         )}
       </div>
-    </MainLayout>
+     
   );
 }
 

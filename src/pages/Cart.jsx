@@ -5,7 +5,7 @@ import {
   updateQuantity,
 } from "../features/cart/cartSlice";
 import "./cart.css";
-
+  import MainLayout from "../components/layout/MainLayout";
 function Cart() {
   const cartState = useSelector((state) => state.cart);
   const dispatch = useDispatch();

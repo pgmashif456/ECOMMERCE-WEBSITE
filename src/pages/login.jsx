@@ -2,8 +2,7 @@
 import { useDispatch } from "react-redux";
 import { loginSuccess } from "../features/auth/authSlice";
 import { useNavigate } from "react-router-dom";
-import MainLayout from "../components/layout/MainLayout";
-
+  
 function Login() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -31,7 +30,7 @@ function Login() {
   };
 
   return (
-    <MainLayout>
+    
       <div className="login-page">
         <div className="login-box">
           <h1>Login</h1>
@@ -60,7 +59,7 @@ function Login() {
           </form>
         </div>
       </div>
-    </MainLayout>
+     
   );
 }
 
